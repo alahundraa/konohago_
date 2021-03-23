@@ -1,0 +1,17 @@
+﻿@page
+@model KonohagoWebApp.Pages.SearchModel
+@{
+}
+<head>
+    <link rel="stylesheet" href="/css/search.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <form method="get" style="margin-top:100px">
+        <input name="search_input" type="search" placeholder="введите название аниме">
+        <i class="fa fa-search"><input asp-page="TitlesPage" type="submit" placeholder="O"/></i>
+    </form>
+</body>
+
+<script src="../js/search.js"></script>

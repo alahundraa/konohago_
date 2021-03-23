@@ -1,0 +1,64 @@
+﻿@page
+@model KonohagoWebApp.Pages.FAQModel
+@{
+    ViewData["Title"] = "FAQ";
+}
+
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+
+    <html lang="en">
+
+    <head>
+        <title>@ViewData["Title"]</title>
+        <link rel="stylesheet" href="/css/FAQ.css">
+    </head>
+
+    <body>
+        <div id="faq">
+            <h1>FAQ</h1>
+            <ul>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>Кто вы?</h2>
+                    <p>Мы самые лучшие</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>Почему не обновляется аватарка? Я залил новую, но у меня до сих пор старая!</h2>
+                    <p>После того, как Вы залили новый аватар, нажали на иконку подтверждения, нужно сохранить профиль.</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>У меня "что-то" не работает на сайте...</h2>
+                    <p>По всем техническим проблемам обращайтесь на почту сайта по адресу konohagoanime@gmail.com</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2> Тут нет аниме, которое я хочу посмотреть. Это можно исправить?</h2>
+                    <p>С просьбой добавить аниме вы можете обратиться на почту поддержки сайта: konohagoanime@gmail.com</p>
+                </li>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2> Удаление аккаунта</h2>
+                    <p>На данный момент такой функции нет. Если вы хотите создать другой аккаунт или просто уйти с сайта - напишите в поддержку сайта на адрес konohagoanime@gmail.com письмо с просьбой заблокировать аккаунт.</p>
+                </li>
+            </ul>
+
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</body>
+</html>
+
